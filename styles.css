@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+/* All paraagraphs */
+
+p {
+  font-family: cursive;
+  font-size: 20px;
+  color: black;
+}
+
+/* All headings  */
+
+h1 {
+  text-align: center;
+  color: rgb(92, 0, 0);
+  font-size: 4rem;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(92, 0, 0);
+  font-size: 4rem;
+  position: absolute;
+  bottom: -120px;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(92, 0, 0);
+  font-size: 4rem;
+  position: absolute;
+  bottom: -1120px;
+}
+
+h4 {
+  text-align: center;
+  color: rgb(92, 0, 0);
+  font-size: 4rem;
+  position: absolute;
+  bottom: -2120px;
+  right: 650px;
+}
+
+h5 {
+  text-align: center;
+  color: rgb(92, 0, 0);
+  font-size: 4rem;
+  position: absolute;
+  bottom: -3050px;
+}
+
+h6 {
+  text-align: center;
+  color: rgb(92, 0, 0);
+  font-size: 4rem;
+  position: absolute;
+  bottom: -4050px;
+}
+
+.details {
+  color: whitesmoke;
+  font-size: 27px;
+  position: absolute;
+  bottom: -155px;
+}
+
+.con {
+  color: rgb(92, 0, 0);
+  font-size: 35px;
+  position: absolute;
+  bottom: -4720px;
+  right: 85%;
+}
+
+.top {
+  position: absolute;
+  right: 800px;
+  top: 200px;
+}
+
+/*All Images  */
+
+.kolkata {
+  position: absolute;
+  right: 1450px;
+  top: 400px;
+}
+
+.hb {
+  position: absolute;
+  left: 1400px;
+  bottom: -660px;
+}
+
+.vm {
+  position: absolute;
+  right: 1450px;
+  bottom: -1660px;
+}
+
+.dt {
+  position: absolute;
+  left: 1400px;
+  bottom: -2660px;
+}
+
+.eg {
+  position: absolute;
+  right: 1450px;
+  bottom: -3660px;
+}
+
+.kt {
+  position: absolute;
+  left: 1400px;
+  bottom: -4510px;
+}
+
+/* All Containers */
+
+.container {
+  position: absolute;
+  width: 120rem;
+  height: 55rem;
+  left: 620px;
+  bottom: 100px;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+  padding-inline-start: 2%;
+}
+
+.container2 {
+  position: absolute;
+  width: 120rem;
+  height: 55rem;
+  left: 80px;
+  bottom: -770px;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+  padding-inline-start: 2%;
+}
+
+.container3 {
+  position: absolute;
+  width: 120rem;
+  height: 55rem;
+  left: 620px;
+  bottom: -1760px;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+  padding-inline-start: 2%;
+}
+
+.container4 {
+  position: absolute;
+  width: 120rem;
+  height: 55rem;
+  left: 80px;
+  bottom: -2760px;
+  background-color: rgba(255, 255, 255, 0.35);
+  padding-inline-start: 2%;
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+}
+
+.container5 {
+  position: absolute;
+  width: 120rem;
+  height: 65rem;
+  padding-inline-start: 2%;
+  left: 620px;
+  bottom: -3800px;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+}
+
+.container6 {
+  position: absolute;
+  width: 120rem;
+  height: 45rem;
+  left: 80px;
+  bottom: -4560px;
+  padding-inline-start: 2%;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+}
+
+/* navigation bar */
+.navigation {
+  position: absolute;
+  border-color: black;
+  font-size: 8rem;
+  top: 0;
+  left: 22%;
+}
+
+/* To remove black dots from navigation panel */
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-decoration: none;
+  display: inline-block;
+  list-style: sp;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Navigation Buttons */
+
+.howB {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.victM {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.dkt {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.EdenG {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.kmtl {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* jugad scrooling */
+div6 {
+  font-size: 1rem;
+  position: absolute;
+  bottom: -15px;
+  right: 0px;
+}
+
+div7 {
+  font-size: 1rem;
+  position: absolute;
+  bottom: -990px;
+  right: 0px;
+}
+
+div8 {
+  font-size: 1rem;
+  position: absolute;
+  bottom: -1965px;
+  right: 0px;
+}
+
+div9 {
+  font-size: 1rem;
+  position: absolute;
+  bottom: -2940px;
+  right: 0px;
+}
+
+div10 {
+  font-size: 1rem;
+  position: absolute;
+  bottom: -3915px;
+  right: 0px;
+}
